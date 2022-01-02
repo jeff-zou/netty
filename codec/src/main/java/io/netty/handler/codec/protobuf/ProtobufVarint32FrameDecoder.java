@@ -39,6 +39,7 @@ import java.util.List;
  *
  * @see CodedInputStream
  * @see CodedInputByteBufferNano
+ *  前1位是否继续，后7位是数字
  */
 public class ProtobufVarint32FrameDecoder extends ByteToMessageDecoder {
 
